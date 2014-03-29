@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ankur_blog_development
+  pool: 5
+  username: peeyush
+  password: peeyush
+
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ankur_blog_production
+  pool: 5
+  username:
+  password:
