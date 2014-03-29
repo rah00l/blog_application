@@ -69,9 +69,17 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.14'
   gem 'simplecov', :require => false
   gem 'pry-rails'
+  gem 'debugger'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'faker'
+  gem 'mailcatcher'
+  gem 'quiet_assets'
+  gem 'annotate', ">=2.6.0"
 end
 
 # Install gems from each theme
 Dir.glob(File.join(File.dirname(__FILE__), 'themes', '**', "Gemfile")) do |gemfile|
   eval(IO.read(gemfile), binding)
 end
+
