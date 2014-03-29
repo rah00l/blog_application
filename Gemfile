@@ -37,7 +37,7 @@ group :assets do
 end
 
 group :development, :test do
-  gem 'unicorn'
+  gem 'thin'
   gem 'factory_girl', '~> 4.2.0'
   gem 'webrat'
   gem 'rspec-rails', '~> 2.14'
