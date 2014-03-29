@@ -78,6 +78,10 @@ group :development, :test do
   gem 'annotate', ">=2.6.0"
 end
 
+group :production do
+  gem 'rails_12factor'
+end
+
 # Install gems from each theme
 Dir.glob(File.join(File.dirname(__FILE__), 'themes', '**', "Gemfile")) do |gemfile|
   eval(IO.read(gemfile), binding)
