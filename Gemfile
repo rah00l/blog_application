@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "1.9.3"
 gem 'pg'
 gem 'rails', '~> 3.2.16'
 gem 'require_relative'
