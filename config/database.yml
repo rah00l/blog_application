@@ -7,7 +7,7 @@ development:
   password: peeyush
 
 
-development:
+production:
   adapter: postgresql
   encoding: unicode
   database: ankur_blog_production
